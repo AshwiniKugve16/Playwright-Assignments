@@ -1,0 +1,14 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Sensitive login and session files
+Data/qa.env
+Data/login.json
+Data/sflogin.csv
+Data/sflogin.json

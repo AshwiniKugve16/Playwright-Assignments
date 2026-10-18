@@ -1,0 +1,22 @@
+{
+  "name": "vs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day1.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "csv": "^6.6.4",
+    "dotenv": "^18.0.7",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
