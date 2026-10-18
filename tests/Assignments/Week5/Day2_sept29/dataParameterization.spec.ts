@@ -1,7 +1,7 @@
 
 import { test } from "@playwright/test";
 import dotenv from "dotenv";
-import leadData from "../../../../Data/leadData.json";
+import leadData from "../../Data/leadData.json";
 
 let filename = process.env.envfile || "qa";
 dotenv.config({ path: `Data/${filename}.env` })
